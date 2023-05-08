@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(141, 2, 2), grey);
+}
+.calculator{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119, 0.5);
+
+}
+input{
+    width: 200px;
+    border:none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1 );
+    font-size: 40px;
+    text-align: right;
+}
+input::placeholder{
+    color: azure;
+    
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    color: azure;
+    background: transparent;
+    font-size:20px;
+    box-shadow: -8px -8px 15px;
+    cursor: pointer;
+}
+.eqaulbtn{
+    background-color: orange;
+}
+.operator{
+    background-color: green;
+}
